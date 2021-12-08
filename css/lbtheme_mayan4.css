@@ -1,0 +1,208 @@
+/* Theme 6 : Mayan */
+@font-face {
+  font-family: 'Mayan';
+  src: url('../resource/images/theme/mayan/Mayan.ttf');
+}
+
+.te6_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 154.93px;
+  background-image: url("../resource/images/theme/mayan/02_Mayan_Lobby_11.png"), url("../resource/images/theme/mayan/02_Mayan_Lobby_01.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, center;
+  background-size: auto 95%, 100% 100%;
+}
+
+section {
+  position: relative;
+}
+
+section img {
+	position: absolute;
+}
+
+.top {
+	animation-name: fade;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 0.3;
+	}
+}
+
+.te6_winrate {
+  font-family: 'RSU';
+  font-size: 40px;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.te6_winrate_num {
+  font-family: 'RSU';
+  font-size: 50px;
+  margin-top: -35px;
+  font-weight: bold;
+}
+
+.te6_chancetxt {
+  font-family: 'Helvet';
+  color: white;
+  font-size: 18px;
+  margin-top: -5px;
+}
+
+.te6_diamond {
+  width: auto;
+  height: 30px;
+  margin-top: -40px;
+  margin-left: -13px;
+}
+
+.te6_trophy {
+  width: auto;
+  height: 70%;
+}
+
+.te6_roomtxt {
+  font-family: 'Mayan';
+  color: white;
+  font-size: 20px;
+  margin-top: -5px;
+  margin-bottom: -15px;
+  margin-left: 25px;
+}
+
+.te6_numroomtxt {
+  font-family: 'Mayan';
+  color: white;
+  font-size: 35px;
+  margin-left: 25px;
+  letter-spacing: 3px;
+}
+
+.te6_gamelogo {
+  margin-top: 5px;
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 45px;
+  max-width: 100px;
+}
+
+@media (max-width: 1300px) {
+  .te6_tableblock {
+    width: 400px;
+    height: 123.94px;
+  }
+
+  .te6_winrate {
+    font-size: 25px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .te6_winrate_num {
+    font-size: 35px;
+    margin-top: -30px;
+  }
+
+  .te6_chancetxt {
+    font-size: 16px;
+    margin-top: -5px;
+  }
+
+  .te6_diamond {
+    height: 24px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+
+  .te6_trophy {
+    height: 55%;
+  }
+
+  .te6_roomtxt {
+    font-size: 14px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+  }
+
+  .te6_numroomtxt {
+    font-size: 27px;
+    margin-left: 25px;
+  }
+
+  .te6_gamelogo {
+    margin-top: 5px;
+    margin-left: 15px;
+    max-height: 38px;
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .te6_tableblock {
+    width: 350px;
+    height: 108.45px;
+  }
+
+  .te6_winrate {
+    font-size: 23px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .te6_winrate_num {
+    font-size: 32px;
+    margin-top: -30px;
+  }
+
+  .te6_chancetxt {
+    font-size: 14px;
+    margin-top: -5px;
+  }
+
+  .te6_diamond {
+    height: 22px;
+    margin-top: -30px;
+  }
+
+  .te6_trophy {
+    height: 50%;
+  }
+
+  .te6_roomtxt {
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+  }
+
+  .te6_numroomtxt {
+    font-size: 24px;
+    margin-left: 25px;
+  }
+
+  .te6_gamelogo {
+    margin-top: 5px;
+    margin-left: 15px;
+    max-height: 32px;
+    max-width: 85px;
+  }
+}

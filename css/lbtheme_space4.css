@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/theme/space/PSL SamsonAD  Bold.TTF');
+}
+
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/theme/racing/PSL SamsonAD  Bold.TTF');
+  font-weight: bold;
+}
+
+.te2_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 200px;
+  background-image: url("../resource/images/theme/space/02_Space_Lobby_01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.back_game {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.ontop_game {
+  position: absolute;
+  top: 17px;
+  left: 32px;
+  width: 113px;
+}
+
+.te2_winrate {
+  font-family: 'RSU';
+  font-size: 50px;
+  font-size: 45px;
+  margin-left: -70px;
+}
+
+.te2_winrate_num {
+  font-family: 'RSU';
+  font-size: 75px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+  margin-left: -70px;
+}
+
+.te2_chancetxt {
+  font-family: 'RSU';
+  color: #71238a;
+  text-shadow: 1px 1px 0 #be77d2, -1px 1px 0 #be77d2, 1px -1px 0 #be77d2, -1px -1px 0 #be77d2, 0px 1px 0 #be77d2, 0px -1px 0 #be77d2, -1px 0px 0 #be77d2, 1px 0px 0 #be77d2, 2px 2px 0 #be77d2, -2px 2px 0 #be77d2, 2px -2px 0 #be77d2, -2px -2px 0 #be77d2, 0px 2px 0 #be77d2, 0px -2px 0 #be77d2, -2px 0px 0 #be77d2, 2px 0px 0 #be77d2, 1px 2px 0 #be77d2, -1px 2px 0 #be77d2, 1px -2px 0 #be77d2, -1px -2px 0 #be77d2, 2px 1px 0 #be77d2, -2px 1px 0 #be77d2, 2px -1px 0 #be77d2, -2px -1px 0 #be77d2;
+  font-size: 22px;
+  margin-left: -60px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.te2_roomtxt {
+  font-family: 'RSU';
+  color: #71238a;
+  text-shadow: 1px 1px 0 #be77d2, -1px 1px 0 #be77d2, 1px -1px 0 #be77d2, -1px -1px 0 #be77d2, 0px 1px 0 #be77d2, 0px -1px 0 #be77d2, -1px 0px 0 #be77d2, 1px 0px 0 #be77d2, 2px 2px 0 #be77d2, -2px 2px 0 #be77d2, 2px -2px 0 #be77d2, -2px -2px 0 #be77d2, 0px 2px 0 #be77d2, 0px -2px 0 #be77d2, -2px 0px 0 #be77d2, 2px 0px 0 #be77d2, 1px 2px 0 #be77d2, -1px 2px 0 #be77d2, 1px -2px 0 #be77d2, -1px -2px 0 #be77d2, 2px 1px 0 #be77d2, -2px 1px 0 #be77d2, 2px -1px 0 #be77d2, -2px -1px 0 #be77d2;
+  font-size: 30px;
+  margin-top: -8px;
+  margin-bottom: -15px;
+  margin-left: 37px;
+  font-weight: bold;
+  height: 40px;
+}
+
+.te2_numroomtxt {
+  font-family: 'RSU';
+  color: #610b8b;
+  text-shadow: 1px 1px 0 #be77d2, -1px 1px 0 #be77d2, 1px -1px 0 #be77d2, -1px -1px 0 #be77d2, 0px 1px 0 #be77d2, 0px -1px 0 #be77d2, -1px 0px 0 #be77d2, 1px 0px 0 #be77d2, 2px 2px 0 #be77d2, -2px 2px 0 #be77d2, 2px -2px 0 #be77d2, -2px -2px 0 #be77d2, 0px 2px 0 #be77d2, 0px -2px 0 #be77d2, -2px 0px 0 #be77d2, 2px 0px 0 #be77d2, 1px 2px 0 #be77d2, -1px 2px 0 #be77d2, 1px -2px 0 #be77d2, -1px -2px 0 #be77d2, 2px 1px 0 #be77d2, -2px 1px 0 #be77d2, 2px -1px 0 #be77d2, -2px -1px 0 #be77d2;
+  font-size: 50px;
+  margin-left: 35px;
+  margin-top: -20px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.set_game {
+  /* max-height: 95%; */
+  width: auto;
+}
+
+.te2_gamelogo {
+  margin-top: 80px;
+  height: auto;
+  width: auto;
+  max-height: 45px;
+  max-width: 100px;
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+.blink_bb {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+@media (max-width: 1300px) {
+  .te2_tableblock {
+    width: 400px;
+    height: 160px;
+  }
+  .te2_winrate {
+    font-size: 35px;
+    margin-left: -46px;
+  }
+  .te2_winrate_num {
+    font-size: 50px;
+    margin-left: -50px;
+  }
+  .te2_chancetxt {
+    font-size: 18px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    margin-left: -40px;
+  }
+  .te2_numroomtxt {
+    font-size: 45px;
+    margin-left: 35px;
+    padding-bottom: 50px;
+  }
+  .te2_gamelogo {
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 95px;
+  }
+  .back_game {
+    width: 90%;
+  }
+  .ontop_game {
+    left: 20px;
+    width: 100px;
+    top: 15px;
+  }
+}
+
+@media (max-width: 1076px) {
+  .te2_tableblock {
+    width: 500px;
+  }
+  .ontop_game {
+    top: 17px;
+    left: 31px;
+    width: 112px;
+  }
+  .te2_winrate_num {
+    font-size: 70px;
+    margin-left: -66px;
+  }
+  .te2_chancetxt {
+    font-size: 20px;
+    margin-top: 34px;
+    margin-bottom: -18px;
+    margin-left: -56px;
+  }
+  .back_game {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  .te2_winrate {
+    font-family: 'RSU';
+    font-size: 40px;
+  }
+  .te2_winrate_num {
+    font-family: 'RSU';
+    font-size: 50px;
+  }
+  .te2_chancetxt {
+    margin-top: 0;
+  }
+  .te2_roomtxt {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .te2_numroomtxt {
+    margin-left: 15px;
+  }
+  .te2_winrate {
+    margin-left: -62px;
+  }
+}
+
+@media (max-width: 500px) {
+  .te2_tableblock {
+    width: 320px;
+  }
+  .ontop_game {
+    top: 11px;
+    left: 21px;
+    width: 70px;
+  }
+  .te2_chancetxt {
+    font-size: 16px;
+    margin-left: -38px;
+    margin-bottom: 3px;
+  }
+  .te2_winrate_num {
+    font-size: 38px;
+    margin-left: -41px;
+  }
+  .te2_winrate {
+    margin-left: -41px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 390px) {
+  .te2_tableblock {
+    zoom: 91%;
+  }
+}

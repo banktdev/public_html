@@ -1,0 +1,234 @@
+/* Theme 1 : Prirate */
+.te1_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 200px;
+  background-image: url("../resource/images/theme/1/02_Pirate_Lobby_02.png"), url("../resource/images/theme/1/02_Pirate_Lobby_01.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center center;
+  background-size: auto 100%, 100% 80%;
+}
+
+.col_top_left {
+  width: 40%;
+  vertical-align: bottom;
+}
+
+.col_top_center {
+  padding-top: 20px;
+}
+
+.col_top_right {
+  width: 40%;
+  vertical-align: bottom;
+}
+
+.tbl_bar {
+  margin-bottom: 55px;
+  width: 125px;
+  height: 15px;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.tbl_bar_left {
+  margin-left: 60px;
+}
+
+.tbl_bar_right {
+  margin-right: 60px;
+}
+
+.bar_fade {
+  animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  0%   { opacity: 1; }
+  25%   { opacity: 0; }
+  50%   { opacity: 1; }
+  75%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.te1_showtext {
+  font-family: 'Helvet';
+  font-size: 55px;
+}
+
+.te1_chancetxt {
+  font-family: 'Helvet';
+  color: white;
+  font-size: 18px;
+  margin-bottom: -25px;
+}
+
+.te1_roomtxt {
+  font-family: 'RSU';
+  color: #B5924D;
+  font-size: 35px;
+  margin-top: -10px;
+  margin-bottom: -30px;
+  font-weight: bold;
+}
+
+.te1_numroomtxt {
+  font-family: 'RSU';
+  color: #B5924D;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.te1_gamelogo {
+  margin-bottom: 12px;
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 80px;
+}
+
+@media (max-width: 1300px) {
+  .te1_tableblock {
+    width: 400px;
+    height: 160px;
+  }
+
+  .tbl_bar {
+    margin-bottom: 43px;
+    width: 100px;
+    height: 13px;
+  }
+
+  .tbl_bar_left {
+    margin-left: 48px;
+  }
+
+  .tbl_bar_right {
+    margin-right: 48px;
+  }
+
+  .te1_showtext {
+    font-size: 40px;
+  }
+
+  .col_top_center {
+    padding-top: 10px;
+  }
+
+  .te1_chancetxt {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: -20px;
+  }
+
+  .te1_roomtxt {
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: -27px;
+  }
+
+  .te1_numroomtxt {
+    font-size: 40px;
+  }
+
+  .te1_gamelogo {
+    margin-bottom: 7px;
+    max-height: 35px;
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .te1_tableblock {
+    width: 350px;
+    height: 140px;
+  }
+
+
+  .tbl_bar {
+    margin-bottom: 37px;
+    width: 87px;
+    height: 12px;
+  }
+
+  .tbl_bar_left {
+    margin-left: 42px;
+  }
+
+  .tbl_bar_right {
+    margin-right: 42px;
+  }
+
+  .te1_showtext {
+    font-size: 35px;
+  }
+
+  .te1_chancetxt {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+  }
+
+  .te1_roomtxt {
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: -25px;
+  }
+
+  .te1_numroomtxt {
+    font-size: 35px;
+  }
+
+  .te1_gamelogo {
+    margin-bottom: 5px;
+    max-height: 35px;
+    max-width: 70px;
+  }
+}
+
+@media (max-width: 800px) {
+  .te1_tableblock {
+    width: 320px;
+    height: 128px;
+  }
+
+  .tbl_bar {
+    margin-bottom: 34px;
+    width: 78px;
+    height: 10px;
+  }
+
+  .tbl_bar_left {
+    margin-left: 38px;
+  }
+
+  .tbl_bar_right {
+    margin-right: 38px;
+  }
+
+  .te1_showtext {
+    font-size: 30px;
+  }
+
+  .te1_chancetxt {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: -12px;
+  }
+
+  .te1_roomtxt {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+  }
+
+  .te1_numroomtxt {
+    font-size: 32px;
+  }
+
+  .te1_gamelogo {
+    max-height: 32px;
+    max-width: 65px;
+  }
+}

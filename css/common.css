@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Helvet';
+  src: url('../resource/images/new/font/Helvethaica_Med.ttf');
+}
+
+@font-face {
+  font-family: 'Helvet';
+  src: url('../resource/images/new/font/Helvethaica_Bd.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/new/font/RSU_LIGHT.ttf');
+}
+
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/new/font/RSU_BOLD.ttf');
+  font-weight: bold;
+}
+
+body {
+  background-color: #cccccc;
+  background-size: cover;
+  /* background-position:center bottom; */
+  background-attachment: fixed;
+  font-family: 'RSU';
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.border-win {
+  width: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(40, 167, 69);
+  border-radius: 9px;
+}
+
+.border-lose {
+  width: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #dc3545;
+  border-radius: 9px;
+}
+
+.frameA {
+  padding: 3px 1.0% 0 1.0%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 57px, 100% 100%;
+  background-origin: content-box, padding-box;
+}
+
+.frameB {
+  padding: 3px 1.2% 0 1.2%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% 57px, 100% 100%;
+  height: 470px;
+  margin-bottom: 11px;
+  background-origin: content-box, padding-box;
+}

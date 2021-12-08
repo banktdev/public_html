@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/theme/space/PSL SamsonAD  Bold.TTF');
+}
+
+@font-face {
+  font-family: 'RSU';
+  src: url('../resource/images/theme/racing/PSL SamsonAD  Bold.TTF');
+  font-weight: bold;
+}
+
+.te2_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 200px;
+  background-image: url("../resource/images/theme/china/02_China_Lobby_01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ontop_game {
+  width: 150px;
+}
+
+.te2_winrate {
+  font-family: 'RSU';
+  font-size: 50px;
+  font-size: 45px;
+}
+
+.te2_winrate_num {
+  font-family: 'RSU';
+  font-size: 75px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, -1px 0px 0 #000, 1px 0px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, -2px 0px 0 #000, 2px 0px 0 #000, 1px 2px 0 #000, -1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000, 2px 1px 0 #000, -2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000;
+  margin-top: -27px;
+}
+
+.te2_chancetxt {
+  font-family: 'RSU';
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.te2_roomtxt {
+  font-family: 'RSU';
+  font-size: 30px;
+  margin-top: -29px;
+  margin-bottom: -15px;
+  margin-right: 45px;
+  font-weight: bold;
+  color: #fff;
+  /* background: linear-gradient(to bottom, #84D7A4 0%, #0D7155 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.te2_numroomtxt {
+  font-family: 'RSU';
+  font-size: 50px;
+  margin-left: 5px;
+}
+
+.set_game {
+  /* max-height: 95%; */
+  width: auto;
+}
+
+.show_line_green {
+  box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px #32fe00, 0 0 21px #32fe00, 0 0 34px #32fe00, 0 0 54px #32fe00;
+  background: #fff;
+  height: 5px;
+  width: 100px;
+  border-top: #fff;
+  margin-top: -24px;
+  margin-left: -4px;
+}
+
+.show_line_red {
+  box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px #fe0000, 0 0 21px #fe0000, 0 0 34px #fe0000, 0 0 54px #fe0000;
+  background: #fff;
+  height: 5px;
+  width: 100px;
+  border-top: #fff;
+  margin-top: -24px;
+  margin-left: -4px;
+}
+
+.show_line_yellow {
+  box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px #effe01, 0 0 21px #effe01, 0 0 34px #effe01, 0 0 54px #effe01;
+  background: #fff;
+  height: 5px;
+  width: 100px;
+  border-top: #fff;
+  margin-top: -24px;
+  margin-left: -4px;
+}
+
+.show_line_error {
+  box-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px #2a8496, 0 0 21px #2a8496, 0 0 34px #2a8496, 0 0 54px #2a8496;
+  background: #fff;
+  height: 5px;
+  width: 100px;
+  border-top: #fff;
+  margin-top: -24px;
+  margin-left: -4px;
+}
+
+.te2_gamelogo {
+  height: auto;
+  width: auto;
+  max-width: 120px;
+  margin-right: 35px;
+  margin-top: -12px;
+}
+
+.set_img {
+  width: 100%;
+  padding-left: 37px;
+}
+
+.count_game {
+  max-width: 160px;
+  margin-top: -60px;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .te2_tableblock {
+    width: 400px;
+    height: 160px;
+  }
+  .te2_winrate {
+    font-size: 35px;
+  }
+  .te2_winrate_num {
+    font-size: 50px;
+  }
+  .set_img {
+    padding-left: 28px;
+  }
+  .te2_winrate_num {
+    margin-top: -15px;
+  }
+  .count_game {
+    margin-top: -40px;
+  }
+  .te2_chancetxt {
+    margin-top: 13px;
+  }
+  .te2_numroomtxt {
+    font-size: 45px;
+  }
+  .back_game {
+    width: 90%;
+  }
+  .te2_roomtxt {
+    margin-right: 31px;
+  }
+}
+
+@media (max-width: 1076px) {
+  .te2_tableblock {
+    width: 500px;
+    height: 200px;
+  }
+  .set_img {
+    padding-left: 35px;
+  }
+  .te2_winrate_num {
+    font-size: 70px;
+    margin-top: -24px;
+  }
+  .te2_gamelogo {
+    margin-left: 14px;
+  }
+  .count_game {
+    margin-top: -50px;
+  }
+  .te2_chancetxt {
+    margin-top: 19px;
+  }
+  .back_game {
+    width: 80%;
+  }
+  .te2_winrate {
+    font-size: 50px;
+  }
+  .te2_roomtxt {
+    font-size: 35px;
+  }
+  .te2_numroomtxt {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .te2_winrate {
+    font-size: 40px;
+  }
+  .te2_winrate_num {
+    font-size: 55px;
+    margin-top: -13px;
+  }
+  .count_game {
+    margin-top: -35px;
+  }
+  .te2_chancetxt {
+    margin-top: 8px;
+  }
+  .te2_roomtxt {
+    margin-right: 35px;
+  }
+  .set_img {
+    padding-left: 32px;
+  }
+  .te2_tableblock {
+    width: 465px;
+  }
+}
+
+@media (max-width: 500px) {
+  .te2_tableblock {
+    width: 380px;
+  }
+  .ontop_game {
+    width: 130px;
+    padding-top: 12px;
+  }
+  .te2_winrate_num {
+    font-size: 50px;
+    padding-top: 0;
+  }
+  .te2_gamelogo {
+    margin-left: 0;
+    margin-top: -22px;
+
+  }
+  .set_img {
+    padding-left: 26px;
+  }
+  .te2_roomtxt {
+    font-size: 30px;
+  }
+  .te2_numroomtxt {
+    font-size: 40px;
+    margin-left: 0;
+  }
+}
+
+.blink_bb {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 401px) {
+  .te2_tableblock {
+    zoom: 91%;
+  }
+}
+
+@media (max-width: 380px) {
+  .te2_tableblock {
+    zoom: 75%;
+  }
+}

@@ -1,0 +1,4 @@
+[12-Jun-2020 15:21:49 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/bigcola/public_html/demo/client/header.php on line 2
+[12-Jun-2020 15:21:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bigcola/public_html/demo/client/index.php:1) in /home/bigcola/public_html/demo/client/header.php on line 5
+[12-Jun-2020 15:22:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/bigcola/public_html/demo/client/header.php on line 2
+[12-Jun-2020 15:22:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bigcola/public_html/demo/client/index.php:1) in /home/bigcola/public_html/demo/client/header.php on line 5

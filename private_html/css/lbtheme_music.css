@@ -1,0 +1,241 @@
+/* Theme 6 : Music */
+.te8_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 155.36px;
+  background-image: url("../resource/images/theme/music/02_Music_Lobby_01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.te8_winrate {
+  font-family: 'RSU';
+  font-size: 35px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.te8_winrate_num {
+  font-family: 'RSU';
+  font-size: 55px;
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+.txt_percent {
+  font-size: 35px;
+}
+
+.te8_chancetxt {
+  font-family: 'Helvet';
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.te8_diamond {
+  width: auto;
+  height: 30px;
+  margin-top: -70px;
+}
+
+.te8_trophy {
+  width: auto;
+  height: 70%;
+}
+
+.te8_roomtxt {
+  font-family: 'RSU';
+  color: #BF9A5E;
+  font-size: 24px;
+  margin-bottom: -15px;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.te8_numroomtxt {
+  font-family: 'RSU';
+  color: #BF9A5E;
+  font-size: 40px;
+  margin-left: 25px;
+  margin-bottom: -20px;
+  font-weight: bold;
+}
+
+.te8_gamelogo {
+  margin-top: 5px;
+  margin-left: 25px;
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  max-width: 100px;
+}
+
+@media (max-width: 1300px) {
+  .te8_tableblock {
+    width: 400px;
+    height: 124.29px;
+  }
+
+  .te8_winrate {
+    font-size: 28px;
+    margin-top: -10px;
+  }
+
+  .te8_winrate_num {
+    font-size: 50px;
+    margin-top: -30px;
+  }
+
+  .txt_percent {
+    font-size: 35px;
+  }
+
+  .te8_chancetxt {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .te8_diamond {
+    height: 30px;
+    margin-top: -70px;
+  }
+
+  .te8_trophy {
+    height: 70%;
+  }
+
+  .te8_roomtxt {
+    font-size: 20px;
+    margin-bottom: -15px;
+    margin-left: 25px;
+  }
+
+  .te8_numroomtxt {
+    font-size: 35px;
+    margin-left: 25px;
+    margin-bottom: -30px;
+  }
+
+  .te8_gamelogo {
+    margin-top: 0px;
+    margin-left: 25px;
+    max-height: 35px;
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .te8_tableblock {
+    width: 350px;
+    height: 108.75px;
+  }
+
+  .te8_winrate {
+    font-size: 28px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+  }
+
+  .te8_winrate_num {
+    font-size: 35px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+  }
+
+  .txt_percent {
+    font-size: 20px;
+  }
+
+  .te8_chancetxt {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .te8_diamond {
+    height: 30px;
+    margin-top: -70px;
+  }
+
+  .te8_trophy {
+    height: 70%;
+  }
+
+  .te8_roomtxt {
+    font-size: 16px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    margin-left: 25px;
+  }
+
+  .te8_numroomtxt {
+    font-size: 32px;
+    margin-left: 25px;
+    margin-bottom: -50px;
+  }
+
+  .te8_gamelogo {
+    margin-top: -55px;
+    margin-left: 20px;
+    max-height: 25px;
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .te8_tableblock {
+    width: 320px;
+    height: 99.43px;
+  }
+
+  .te8_winrate {
+    font-size: 28px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+  }
+
+  .te8_winrate_num {
+    font-size: 35px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+  }
+
+  .txt_percent {
+    font-size: 20px;
+  }
+
+  .te8_chancetxt {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .te8_diamond {
+    height: 30px;
+    margin-top: -70px;
+  }
+
+  .te8_trophy {
+    height: 70%;
+  }
+
+  .te8_roomtxt {
+    font-size: 16px;
+    margin-top: -30px;
+    margin-bottom: -15px;
+    margin-left: 25px;
+  }
+
+  .te8_numroomtxt {
+    font-size: 32px;
+    margin-left: 25px;
+    margin-bottom: -50px;
+  }
+
+  .te8_gamelogo {
+    margin-top: -55px;
+    margin-left: 20px;
+    max-height: 25px;
+    max-width: 80px;
+  }
+}

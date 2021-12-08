@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^(.*)$ index.php?argv=$1 [QSA,NC,L]
+</IfModule>

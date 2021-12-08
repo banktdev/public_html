@@ -1,0 +1,20 @@
+.dataTables_length {
+    color: khaki;
+}
+
+.dataTables_filter {
+    color: khaki;
+}
+
+.dataTables_info {
+    color: khaki;
+}
+
+.dataTables_paginate {
+    color: khaki;
+}
+.page-item.active .page-link
+{
+  background-color: gray;
+  border-color: gray;
+}

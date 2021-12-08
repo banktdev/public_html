@@ -1,0 +1,4 @@
+<?php 
+	echo '{"status":"200","data":[{"table_id":"1","dealer_name":"Ive","records":"X"},{"table_id":"2","dealer_name":"Shelby","records":"X"},{"table_id":"3","dealer_name":"Kate","records":"X"},{"table_id":"4","dealer_name":"Scarlett","records":"X"},{"table_id":"5","dealer_name":"Afrodita","records":"X"},{"table_id":"6","dealer_name":"Elizabeth","records":"X"},{"table_id":"7","dealer_name":"Daya","records":"X"},{"table_id":"8","dealer_name":"Naiya","records":"X"},{"table_id":"9","dealer_name":"Lisi","records":"X"},{"table_id":"10","dealer_name":"Lena","records":"X"},{"table_id":"11","dealer_name":"Fanny","records":"X"},{"table_id":"13","dealer_name":"Lucy","records":"X"},{"table_id":"21","dealer_name":"Anya","records":"X"}]}';
+
+?>

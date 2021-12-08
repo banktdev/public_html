@@ -1,0 +1,281 @@
+/* Theme 2 : Racing */
+@font-face {
+  font-family: 'Digital';
+  src: url('../resource/images/theme/racing/DS-DIGI.ttf');
+}
+
+@font-face {
+  font-family: 'Digital';
+  src: url('../resource/images/theme/racing/DS-DIGIB.ttf');
+  font-weight: bold;
+}
+
+.cell_left_col {
+  padding-top: 14px;
+  padding-left: 4px;
+}
+
+.spin_div {
+  display: table-cell;
+  width: 130px;
+  height: 130px;
+  vertical-align: middle;
+  transform: rotate(90deg);
+}
+
+.pointer {
+  margin-top: 20px;
+}
+
+.te2_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 200px;
+  background-image: url("../resource/images/theme/racing/02_Racing_Lobby_01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.te2_winrate {
+  font-family: 'Helvet';
+  font-size: 50px;
+}
+
+.te2_winrate_num {
+  font-family: 'Digital';
+  font-size: 75px;
+}
+
+.te2_chancetxt {
+  font-family: 'Helvet';
+  color: orange;
+  font-size: 18px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.te2_roomtxt {
+  font-family: 'Digital';
+  color: orange;
+  font-size: 25px;
+  margin-top: -5px;
+  margin-bottom: -15px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.te2_numroomtxt {
+  font-family: 'Digital';
+  color: orange;
+  font-size: 45px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.te2_gamelogo {
+  margin-top: 35px;
+  margin-left: 45px;
+  height: auto;
+  width: auto;
+  max-height: 45px;
+  max-width: 100px;
+}
+
+@media (max-width: 1300px) {
+  .te2_tableblock {
+    width: 400px;
+    height: 160px;
+  }
+
+  .cell_left_col {
+    padding-top: 12px;
+    padding-left: 5px;
+  }
+
+  .spin_div {
+    width: 100px;
+    height: 100px;
+  }
+
+  .pointer {
+    margin-top: 10px;
+    height: 27px;
+    width: 2.5px;
+  }
+
+  .te2_winrate {
+    font-family: 'Helvet';
+    font-size: 45px;
+  }
+
+  .te2_winrate_num {
+    font-family: 'Digital';
+    font-size: 60px;
+  }
+
+  .te2_chancetxt {
+    font-size: 18px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+  }
+
+  .te2_roomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 23px;
+    margin-top: -5px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .te2_numroomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 35px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .te2_gamelogo {
+    margin-top: 30px;
+    margin-left: 45px;
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 95px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .te2_tableblock {
+    width: 350px;
+    height: 140px;
+  }
+
+  .cell_left_col {
+    padding-top: 10px;
+    padding-left: 3px;
+  }
+
+  .spin_div {
+    width: 90px;
+    height: 90px;
+  }
+
+  .pointer {
+    margin-top: 12px;
+    height: 25px;
+    width: 1.6px;
+  }
+
+  .te2_winrate {
+    font-family: 'Helvet';
+    font-size: 40px;
+  }
+
+  .te2_winrate_num {
+    font-family: 'Digital';
+    font-size: 50px;
+  }
+
+  .te2_chancetxt {
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+  }
+
+  .te2_roomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .te2_numroomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 30px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .te2_gamelogo {
+    margin-top: 30px;
+    margin-left: 27px;
+    height: auto;
+    width: auto;
+    max-height: 32px;
+    max-width: 75px;
+  }
+}
+
+@media (max-width: 800px) {
+  .te2_tableblock {
+    width: 320px;
+    height: 128px;
+  }
+
+  .cell_left_col {
+    padding-top: 10px;
+    padding-left: 2px;
+  }
+
+  .spin_div {
+    width: 85px;
+    height: 85px;
+  }
+
+  .pointer {
+    margin-top: 12px;
+    height: 25px;
+    width: 1.6px;
+  }
+
+  .te2_winrate {
+    font-family: 'Helvet';
+    font-size: 40px;
+  }
+
+  .te2_winrate_num {
+    font-family: 'Digital';
+    font-size: 50px;
+  }
+
+  .te2_chancetxt {
+    font-size: 14px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+  }
+
+  .te2_roomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .te2_numroomtxt {
+    font-family: 'Digital';
+    color: orange;
+    font-size: 30px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .te2_gamelogo {
+    margin-top: 30px;
+    margin-left: 27px;
+    height: auto;
+    width: auto;
+    max-height: 32px;
+    max-width: 75px;
+  }
+}

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+IndexIgnore *
+Options +FollowSymlinks
+RewriteEngine on
+
+
+RewriteRule ^login$ login.php [QSA]
+RewriteRule ^home$ home.php [QSA]
+RewriteRule ^salobby$ sa_lobby.php [QSA]
+RewriteRule ^selobby$ se_lobby.php [QSA]
+RewriteRule ^wmlobby$ wm_lobby.php [QSA]
+RewriteRule ^slotgame$ slot.php [QSA]
+RewriteRule ^formula$ database/chgformula.php [QSA]
+
+</IfModule>

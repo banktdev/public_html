@@ -1,0 +1,8 @@
+<?php
+$servername = "localhost";
+$servname   = "root";
+$servpass   = "";
+$serv_db    = "ddddd";
+$db         = mysqli_connect($servername, $servname, $servpass, $serv_db);
+mysqli_set_charset($db, 'utf8');
+?>

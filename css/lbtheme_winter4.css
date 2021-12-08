@@ -1,0 +1,244 @@
+/* Theme 4 : Winter */
+.te4_tableblock {
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 200px;
+  background-image: url("../resource/images/theme/winter/02_Winter_Lobby_02.png"),url("../resource/images/theme/winter/02_Winter_Lobby_01.png");
+  background-repeat: no-repeat,no-repeat;
+  background-position: center,center;
+  background-size: auto 55%, 100% 100%;
+}
+
+.bar_fade {
+  animation: fade 3s infinite;
+}
+
+@keyframes fade {
+  0%   { opacity: 1; }
+  25%   { opacity: 0.2; }
+  50%   { opacity: 1; }
+  75%   { opacity: 0.2; }
+  100% { opacity: 1; }
+}
+
+.te4_winrate {
+  font-family: 'Helvet';
+  font-size: 50px;
+}
+
+.te4_winrate_num {
+  font-family: 'Helvet';
+  font-size: 65px;
+  margin-top: -30px;
+}
+
+.te4_chancetxt {
+  font-family: 'Helvet';
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.te4_roomtxt {
+  font-family: 'Helvet';
+  color: #01D3FE;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  font-weight: bold;
+}
+
+.te4_numroomtxt {
+  font-family: 'Helvet';
+  color: #01D3FE;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.te4_gamelogo {
+  height: auto;
+  width: auto;
+  max-height: 45px;
+  max-width: 100px;
+  margin-top: 30px;
+}
+
+.te4_progbar_bg {
+  background-image: url("../resource/images/theme/winter/02_Winter_Lobby_03.png");
+  background-size: 100% 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 18.75px;
+  width: 130px;
+}
+
+.te4_progbar {
+  background-size: 130px 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.te4_linep_bar {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1300px) {
+  .te4_tableblock {
+    width: 400px;
+    height: 160px;
+  }
+
+  .te4_winrate {
+    font-size: 40px;
+  }
+
+  .te4_winrate_num {
+    font-size: 50px;
+    margin-top: -25px;
+  }
+
+  .te4_chancetxt {
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: -20px;
+  }
+
+  .te4_roomtxt {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: -25px;
+  }
+
+  .te4_numroomtxt {
+    font-size: 40px;
+  }
+
+  .te4_gamelogo {
+    max-height: 40px;
+    max-width: 95px;
+    margin-top: 25px;
+  }
+
+  .te4_progbar_bg {
+    height: 15.87px;
+    width: 110px;
+  }
+
+  .te4_progbar {
+    background-size: 110px 100%;
+  }
+
+  .te4_linep_bar {
+    margin-top: 1px;
+    margin-left: 17px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .te4_tableblock {
+    width: 350px;
+    height: 140px;
+  }
+
+  .te4_winrate {
+    font-size: 30px;
+  }
+
+  .te4_winrate_num {
+    font-size: 42px;
+    margin-top: -20px;
+  }
+
+  .te4_chancetxt {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+
+
+  .te4_roomtxt {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+  }
+
+  .te4_numroomtxt {
+    font-size: 30px;
+  }
+
+  .te4_gamelogo {
+    max-height: 32px;
+    max-width: 75px;
+    margin-top: 20px;
+  }
+
+  .te4_progbar_bg {
+    height: 12.98px;
+    width: 90px;
+  }
+
+  .te4_progbar {
+    background-size: 90px 100%;
+  }
+
+  .te4_linep_bar {
+    margin-top: 1px;
+    margin-left: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .te4_tableblock {
+    width: 320px;
+    height: 128px;
+  }
+
+  .te4_winrate {
+    font-size: 30px;
+  }
+
+  .te4_winrate_num {
+    font-size: 42px;
+    margin-top: -20px;
+  }
+
+  .te4_chancetxt {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+
+
+  .te4_roomtxt {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+  }
+
+  .te4_numroomtxt {
+    font-size: 30px;
+  }
+
+  .te4_gamelogo {
+    max-height: 32px;
+    max-width: 75px;
+    margin-top: 20px;
+  }
+
+  .te4_progbar_bg {
+    height: 12.98px;
+    width: 90px;
+  }
+
+  .te4_progbar {
+    background-size: 90px 100%;
+  }
+
+  .te4_linep_bar {
+    margin-top: 1px;
+    margin-left: 13px;
+  }
+}

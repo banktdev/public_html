@@ -1,0 +1,51 @@
+
+
+body {
+    background: #300;
+    font-family: 'Kanit', sans-serif;
+}
+
+.md-progress {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.md-progress, .md-progress .progress-bar {
+    height: 1.25rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.md-progress .progress-bar-animated {
+    -webkit-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+}
+
+.up2you{
+    -webkit-filter: grayscale(85%);
+    filter: grayscale(85%);
+}
+
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    opacity: .75;
+}
+.close:hover {
+    color: #000;
+    text-decoration: none;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.bg-box{
+    background-color:#000;
+}

@@ -1,0 +1,53 @@
+<div class="container" style="padding: 1%">
+    <?php for ($i = 0; $i < 21; $i++) {
+        
+        if (($i % 2) == 0) {
+            echo '<div class="row">';
+        }
+
+        if($i < 10 || $i == 22 )
+        {
+        ?>
+        <div class="col-6">
+            <div class="m-1">
+                <a <?php if ($_SESSION['Credit'] > 0): ?>
+                    href="seroom?id=<?php echo $i + 1; ?>"
+                  <?php else: ?>
+                    onclick="Swal.fire({ type: 'error',title: 'คุณมี Credit ไม่พอใช้บริการนี้',text: 'กรุณาเติมเงินก่อนเข้าใช้งานต่อไปค่ะ'})"
+                  <?php endif; ?> >
+                    <div class="row resroom"
+                        style="padding: 2%; background-size: 100% 100%; background-color: rgba(0, 0, 0, 0.3); background-image: url(&quot;resource/images/new/asset/1/Frame_Lobby.png&quot;);">
+                        <div class="col" style="height: 100%;
+                  background-image: url('resource/images/new/LogoSexyBaccarat.png');
+                  background-repeat: no-repeat;
+                  background-size: 80% 80%;
+                  background-position: center center;
+                  padding-right:4% ">
+                            <span class="txtroom"style="font-family: 'Kanit', sans-serif;color: Khaki;">ROOM : <?php echo str_pad($i+1, 3, '0', STR_PAD_LEFT); ?></span>
+                        </div>
+                        <div class="col-6 col-md-5 text-center" style="background-image: url('resource/images/new/tb_line.png');
+                  background-repeat: no-repeat;
+                  background-size: 2px 100%;
+                  background-position: center left;height: 100%;position:relative;">
+                            <div class="chancetxt" style="font-family: 'Kanit', sans-serif;">อัตราการชนะ</div>
+                            <span style="font-family: 'Kanit', sans-serif;" id="<?php echo "winrate".$i ?>" class="showtext" style="color: khaki;">รอผล</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <?php 
+        }
+        ?>
+        
+
+
+        <?php if (($i % 2) != 0) {
+            echo '</div>';
+        }
+        } ?>
+
+
+    </div>
+ 
+</div>

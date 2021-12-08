@@ -1,0 +1,356 @@
+body {
+  background-image: url('../resource/images/bg.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  font-family: 'Helvet';
+}
+
+.login-btn,
+.register-btn {
+    border-radius: 5px;
+    background: #fff;
+    display: inline-block;
+    width: 150px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    padding: 3px;
+}
+
+.login-btn>a,
+.register-btn>a {
+    border-radius: 5px;
+    background: #000;
+    display: block;
+    font-size: 16px;
+    line-height: 35px;
+    height: 35px;
+    text-decoration: none;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.login-btn>a::before,
+.register-btn>a::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: .1;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(50%, #fff), color-stop(50%, transparent), to(transparent));
+    background-image: linear-gradient(to bottom, transparent 0, #fff 50%, transparent 50%, transparent 100%);
+}
+
+.login-btn>a {
+    -webkit-box-shadow: inset 0 0 20px 5px rgba(255, 187, 24, 0.4);
+    box-shadow: inset 0 0 20px 5px rgba(255, 187, 24, 0.4);
+    color: #f7931d;
+}
+
+.login-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 15px rgba(255, 234, 0, 0.4);
+    box-shadow: 0 0 15px rgba(255, 234, 0, 0.4);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(247, 147, 29, 0.9)), color-stop(28%, rgba(214, 182, 7, 0.9)), color-stop(62%, rgba(247, 147, 29, 0.9)), to(rgba(247, 147, 29, 0.9)));
+    background-image: linear-gradient(to bottom, rgba(247, 147, 29, 0.9) 0, rgba(214, 182, 7, 0.9) 28%, rgba(247, 147, 29, 0.9) 62%, rgba(247, 147, 29, 0.9) 100%);
+}
+
+
+.register-btn>a {
+    -webkit-box-shadow: inset 0 0 20px 5px rgba(24, 209, 255, 0.4);
+    box-shadow: inset 0 0 20px 5px rgba(24, 209, 255, 0.4);
+    color: #21bdbd;
+}
+
+.register-btn::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(79, 172, 202, 0.9)), color-stop(28%, rgba(153, 230, 225, 0.9)), color-stop(62%, rgba(79, 172, 202, 0.9)), to(rgba(153, 230, 225, 0.9)));
+    background-image: linear-gradient(to bottom, rgba(79, 172, 202, 0.9) 0, rgba(153, 230, 225, 0.9) 28%, rgba(79, 172, 202, 0.9) 62%, rgba(153, 230, 225, 0.9) 100%);
+}
+.sidenav {
+  background-image: none;
+}
+
+.showtext {
+  font-family: 'Helvet';
+  font-size: 20px;
+}
+
+.chancetxt {
+  font-family: 'Helvet';
+  margin-bottom: -5px;
+  font-size: 8px;
+  color: white;
+}
+
+.txtroom {
+  font-family: 'Helvet';
+  font-size: 12px;
+  right: 10%;
+  bottom: 0;
+  position: absolute;
+}
+
+.resroom {
+  height: 40px;
+}
+
+@media (min-width: 750px) {
+  .showtext {
+    font-size: 70px;
+  }
+
+  .chancetxt {
+    margin-bottom: -35px;
+    font-size: 27px;
+  }
+
+  .txtroom {
+    font-size: 27px;
+  }
+
+  .resroom {
+    height: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resroom {
+    height: 120px;
+  }
+
+  .txtroom {
+    font-size: 32px;
+  }
+
+  .chancetxt {
+    margin-bottom: -25px;
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidenav {
+    background-image: url('resource/images/new/<?php echo $asset_path ?>/side_bar.png');
+  }
+}
+
+.swal2-popup {
+  background: rgba(10, 10, 10, 0.8) !important;
+  border: solid 1px #a67a2e;
+}
+
+.swal2-title {
+  color: #fffb80 !important;
+}
+
+.swal2-content {
+  color: #fffb80 !important;
+}
+
+.swal2-confirm {
+  background: #E4BA42 !important;
+  color: black !important;
+  background-image: linear-gradient(to bottom, #ae8e3f, #fdf0bc, #ae8e3f) !important;
+}
+
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+  display: block;
+  position: absolute;
+  top: 2.3125em;
+  width: 2.9375em;
+  height: .3125em;
+  border-radius: .125em;
+  background-color: #fffb80 !important;
+}
+
+.swal2-icon.swal2-error {
+  border-color: #fffb80 !important;
+}
+
+.sidenav {
+  background-image: none;
+}
+
+.showtext {
+  font-family: 'Helvet';
+  font-size: 20px;
+}
+
+.chancetxt {
+  font-family: 'Helvet';
+  margin-bottom: -5px;
+  font-size: 8px;
+  color: white;
+}
+
+.txtroom {
+  font-family: 'Helvet';
+  font-size: 12px;
+  right: 10%;
+  bottom: 0;
+  position: absolute;
+}
+
+.resroom {
+  height: 40px;
+}
+
+@media (min-width: 750px) {
+  .showtext {
+    font-size: 70px;
+  }
+
+  .chancetxt {
+    margin-bottom: -35px;
+    font-size: 27px;
+  }
+
+  .txtroom {
+    font-size: 27px;
+  }
+
+  .resroom {
+    height: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .resroom {
+    height: 120px;
+  }
+
+  .txtroom {
+    font-size: 32px;
+  }
+
+  .chancetxt {
+    margin-bottom: -25px;
+    font-size: 27px;
+  }
+}
+
+
+.div-center {
+  width: 600px;
+  height: 1200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  padding: 5%;
+  text-align: center;
+  /* border: 3px solid #cc9933; */
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+@media only screen and (min-width: 700px) {
+  .div-center {
+    height: 1200px;
+  }
+}
+
+.text-white {
+  color: white;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid green;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.bgimage1 {
+  width: 350px;
+  position: absolute;
+  bottom: -5%;
+  left: 5%;
+  z-index: -99;
+}
+
+.bgimage2 {
+  width: 350px;
+  position: absolute;
+  bottom: -12%;
+  right: 5%;
+  z-index: -99;
+}
+
+.logheader {
+  font-family: 'Helvet';
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.btnimg {
+  height: 65px;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .center-box {
+    padding: 5% 10% 7% 10%;
+  }
+
+  .bgimage2 {
+    width: 150px;
+  }
+
+  .logoimg {
+    width: 100%;
+  }
+
+  .loginimg {
+    width: 30%;
+  }
+
+  .logheader {
+    margin-bottom: 0;
+  }
+
+  .btnimg {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 370px) {}

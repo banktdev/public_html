@@ -1,0 +1,15 @@
+RewriteEngine on
+
+RewriteRule ^login$ login.php [QSA]
+RewriteRule ^home$ home.php [QSA]
+RewriteRule ^salobby$ sa_lobby.php [QSA]
+RewriteRule ^selobby$ se_lobby.php [QSA]
+RewriteRule ^wmlobby$ wm_lobby.php [QSA]
+RewriteRule ^dglobby$ dg_lobby.php [QSA]
+RewriteRule ^gclublobby$ gc_lobby.php [QSA]
+RewriteRule ^saroom$ sa_room.php [QSA]
+RewriteRule ^seroom$ se_room.php [QSA]
+RewriteRule ^gclubroom$ gc_room.php [QSA]
+RewriteRule ^wmroom$ wm_room.php [QSA]
+RewriteRule ^dgroom$ dg_room.php [QSA]
+RewriteRule ^formula$ database/chgformula.php [QSA]
